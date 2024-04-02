@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logoimage {
+  height: 100px;
+  width: auto; /* Ensures the image width scales with its height */
+  /* background-color: white; */
+}
+
+.middle {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-right: 150px;
+  margin-left: 120px;
+
+  /* font-weight: 500; */
+}
+
+.rightbar {
+  /* font-family: "Dosis", sans-serif; */
+  font-family: "Red Hat Display", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-optical-sizing: auto;
+  display: flex;
+  list-style: none;
+  align-items: center; /* Aligns items vertically within .right */
+  gap: 50px;
+
+  margin-right: 80px;
+}
+
+/*  */
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-button:hover {
+  background-color: transparent; /* Keep background transparent on hover */
+}
+
+.header {
+  position: absolute;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  /* background-color: rgba(0,0,0,.9); */
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  padding: 0 1rem;
+  color: white;
+}
+
+/* .header .nav-menu a {
+  color: #ffffff;
+} */
+
+.header .navbar img {
+  width: 250px;
+  height: auto;
+}
+/*   
+.header .nav-menu {
+  display: flex;
+} */
+
+/* .header .nav-item {
+  padding: 1rem;
+  font-weight: 500;
+} */
+
+/* .header .nav-item a:hover {
+  padding-bottom: 12px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+  display: none;
+}
+ */
+
+@media screen and (max-width: 940px) {
+  .header {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .header .navbar img {
+    width: 150px;
+  }
+}
+/* Your existing CSS */
+
+/* Add this CSS to style the buttons */
+
+/* Your existing CSS */

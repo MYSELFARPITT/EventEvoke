@@ -1,0 +1,49 @@
+.wedding-planning {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.wedding-planning__header h3 {
+  font-size: 24px;
+}
+
+.wedding-planning__header h2 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.wedding-planning__header hr {
+  width: 50px;
+  border: 1px solid #ccc;
+}
+
+.wedding-planning__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.wedding-planning__left {
+  flex: 1;
+}
+
+.wedding-planning__right {
+  flex: 1;
+}
+
+.wedding-planning__right img,
+.wedding-planning__left img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.wedding-planning__left p,
+.wedding-planning__right p {
+  font-style: italic;
+}
+
+.wedding-planning__left strong,
+.wedding-planning__right strong {
+  font-weight: bold;
+}

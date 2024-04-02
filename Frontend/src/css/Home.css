@@ -1,0 +1,87 @@
+.home-page {
+  background-image: url('../assets/home6.jpg');
+  /* Placeholder image, replace with your actual image URL */
+  background-size: cover;
+  /* Cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-attachment: fixed;
+  /* Make the background image fixed to cover the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*Set the height of the container to full viewport height */
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Semi-transparent black background */
+  
+  padding: 40px;
+  /* border-radius: 10px; */
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+ 
+  font-style: normal;
+  color: white;
+}
+
+.subheading {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  
+  font-style: normal; */
+
+  font-size: larger;
+  font-style: normal;
+  color: white;
+
+}
+
+.get-started-btn {
+
+
+
+
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  width: 30vh;
+
+margin-left: 22vh;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+
+}
+
+.get-started-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.quote{
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
